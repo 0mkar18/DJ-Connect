@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Profile</title>
+  <link rel="stylesheet" href="/DJ Side/profile.css">
+  <link rel="stylesheet" href="/DJ Side/style.css">
+</head>
+<body class="profile-page">
+
+  <div class="profile-container">
+    <h2>Edit DJ Profile</h2>
+    <form action="backend/profile.php" method="POST" enctype="multipart/form-data">
+      <input type="text" name="location" placeholder="Location">
+
+      <div class="range">
+        <input type="range" name="price_range" placeholder="Price Range">
+      </div>
+
+      <textarea name="bio" placeholder="Write something about you..."></textarea>
+      <input type="file" name="photo">
+      <button type="submit">Save Profile</button>
+    </form>
+    <a href="dashboard.html" class="back-link">⬅ Back to Dashboard</a>
+  </div>
+
+</body>
+</html>

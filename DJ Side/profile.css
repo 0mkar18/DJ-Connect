@@ -1,0 +1,38 @@
+/* Profile Page */
+
+.profile-container {
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  backdrop-filter: blur(15px);
+}
+
+.profile-container h2 {
+  margin-bottom: 15px;
+}
+
+.profile-container input, 
+.profile-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: none;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.range{
+  height: 30px;
+  border: 2px solid black;
+}
