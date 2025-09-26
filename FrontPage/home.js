@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const role = btn.dataset.role;        // "user" or "dj"
       const href = btn.dataset.href;       // "user.html" or "dashboard.html"
       try { sessionStorage.setItem('role', role); } catch(e) { /* ignore */ }
+      
       // small delay to show press animation, then redirect
       btn.disabled = true;
       setTimeout(() => { window.location.href = href; }, 180);
