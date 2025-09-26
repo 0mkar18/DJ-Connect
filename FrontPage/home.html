@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DJ & Events — Home</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1 class="title">🎵 DJ & Event Management</h1>
+      <p class="subtitle">Find DJs, manage events & feel the vibe</p>
+
+      <!-- Visual sound bars -->
+      <div class="sound-bars" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <!-- GET STARTED -->
+      <button id="startBtn" class="cta">Get Started</button>
+    </div>
+  </section>
+
+  <!-- ROLE MODAL (hidden by default) -->
+  <div id="roleModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="roleTitle">
+    <div class="modal-panel" role="document">
+      <button id="closeModal" class="modal-close" aria-label="Close">&times;</button>
+
+      <h2 id="roleTitle">Choose your role</h2>
+      <p class="modal-sub">Are you a User or a DJ Manager?</p>
+
+      <div class="role-buttons">
+        <button class="role-btn" data-role="user" data-href="/User side/user.html">👤 I'm a User</button>
+        <button class="role-btn" data-role="dj" data-href="/DJ side/dashboard.html">🎧 I'm a DJ Manager</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="home.js"></script>
+</body>
+</html>

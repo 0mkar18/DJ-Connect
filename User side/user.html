@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User | DJ & Events</title>
+  <link rel="stylesheet" href="user.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>👤 User Panel</h2>
+    <a href="user.html" class="active">Search DJs</a>
+    <a href="/DJ Side/login.html">Logout</a>
+  </aside>
+
+  <!-- Main Section -->
+  <main class="user-dashboard">
+    <h1>Find Your DJ 🎵</h1>
+    <p>Search for DJs by location and event type</p>
+
+    <!-- Search Form -->
+    <form class="search-form">
+      <input type="text" placeholder="Enter location..." required>
+      <select>
+        <option value="">Event Type</option>
+        <option>Wedding</option>
+        <option>Birthday</option>
+        <option>Club Night</option>
+        <option>Corporate</option>
+      </select>
+      <button type="submit">Search</button>
+    </form>
+
+    <!-- DJ Results -->
+    <div class="dj-results">
+      <div class="dj-card">
+        <img src="https://i.ibb.co/jfP0xFR/dj1.jpg" alt="DJ">
+        <h3>DJ Alex</h3>
+        <p>Location: Mumbai</p>
+        <p>Price: ₹10,000/night</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+
+      <div class="dj-card">
+        <img src="https://i.ibb.co/YjFrDPg/dj2.jpg" alt="DJ">
+        <h3>DJ Priya</h3>
+        <p>Location: Pune</p>
+        <p>Price: ₹12,500/night</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+
+      <div class="dj-card">
+        <img src="https://i.ibb.co/FV7Yf5n/dj3.jpg" alt="DJ">
+        <h3>DJ Max</h3>
+        <p>Location: Delhi</p>
+        <p>Price: ₹15,000/night</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
